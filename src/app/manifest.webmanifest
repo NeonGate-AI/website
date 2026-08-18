@@ -1,0 +1,25 @@
+{
+  "background_color": "#0B0E17",
+  "description": "Reliable AI-native products and agentic systems, engineered from first principles.",
+  "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "192x192",
+      "src": "/icons/neongate-192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "/icons/neongate-512.png",
+      "type": "image/png"
+    }
+  ],
+  "id": "/",
+  "name": "NeonGate AI",
+  "scope": "/",
+  "short_name": "NeonGate AI",
+  "start_url": "/",
+  "theme_color": "#0B0E17"
+}

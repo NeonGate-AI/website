@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ng/analytics/*": ["./src/analytics/*"],
+      "@ng/hooks/*": ["./src/hooks/*"],
+      "@ng/identity/*": ["./src/identity/*"],
+      "@ng/orb/*": ["./src/orb/*"],
+      "@ng/ui/*": ["./src/ui/*"]
+    }
+  }
+}

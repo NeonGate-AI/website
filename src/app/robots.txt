@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://neongate.com.br/sitemap.xml
+Host: https://neongate.com.br

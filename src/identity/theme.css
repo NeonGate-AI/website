@@ -1,0 +1,48 @@
+@import "./tokens/dist/index.css";
+
+@theme inline {
+  --color-background: var(--ng-color-background);
+  --color-foreground: var(--ng-color-foreground);
+  --color-indigo: var(--ng-color-indigo);
+  --color-cyan: var(--ng-color-cyan);
+  --color-violet: var(--ng-color-violet);
+  --color-magenta: var(--ng-color-magenta);
+  --color-peach: var(--ng-color-peach);
+  --color-surface-vignette: var(--ng-color-surface-vignette);
+  --background-image-brand-title: var(--ng-gradient-brand-title);
+  --background-image-canvas: var(--ng-gradient-canvas-base);
+  --font-display: var(--font-satoshi), var(--ng-font-family-display);
+  --font-sans: var(--font-satoshi), var(--ng-font-family-body);
+  --animate-enter-orb: enter-orb 1.1s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-enter-title: enter-copy 0.9s 0.18s cubic-bezier(0.16, 1, 0.3, 1)
+    both;
+  --animate-enter-kinetic: enter-copy 0.9s 0.28s cubic-bezier(0.16, 1, 0.3, 1)
+    both;
+  --animate-enter-link: enter-copy 0.9s 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes enter-orb {
+  from {
+    filter: blur(1rem);
+    opacity: 0;
+    transform: scale(0.88);
+  }
+  to {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes enter-copy {
+  from {
+    filter: blur(0.45rem);
+    opacity: 0;
+    transform: translateY(0.8rem);
+  }
+  to {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

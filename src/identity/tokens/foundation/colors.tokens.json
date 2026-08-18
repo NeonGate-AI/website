@@ -1,0 +1,93 @@
+{
+  "color": {
+    "$type": "color",
+    "background": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.0431, 0.0549, 0.0902],
+        "hex": "#0B0E17"
+      }
+    },
+    "foreground": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.9686, 0.9686, 0.9843],
+        "hex": "#F7F7FB"
+      }
+    },
+    "indigo": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.0784, 0.0784, 0.1686],
+        "hex": "#14142B"
+      }
+    },
+    "cyan": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0, 0.9137, 1],
+        "hex": "#00E9FF"
+      }
+    },
+    "violet": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [0.4235, 0.3608, 1],
+        "hex": "#6C5CFF"
+      }
+    },
+    "magenta": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1, 0.302, 0.8706],
+        "hex": "#FF4DDE"
+      }
+    },
+    "peach": {
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [1, 0.6902, 0.4784],
+        "hex": "#FFB07A"
+      }
+    },
+    "surface": {
+      "canvas-start": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.0353, 0.0431, 0.0745],
+          "hex": "#090B13"
+        }
+      },
+      "canvas-end": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.0314, 0.0392, 0.0745],
+          "hex": "#080A13"
+        }
+      },
+      "vignette": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.0196, 0.0275, 0.0627],
+          "hex": "#050710"
+        }
+      }
+    },
+    "title": {
+      "start": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.7137, 0.6706, 1],
+          "hex": "#B6ABFF"
+        }
+      },
+      "end": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [0.6039, 0.5137, 1],
+          "hex": "#9A83FF"
+        }
+      }
+    }
+  }
+}

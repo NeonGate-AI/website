@@ -1,0 +1,31 @@
+{
+  "gradient": {
+    "$type": "gradient",
+    "brand-title": {
+      "$value": [
+        { "color": "{color.title.start}", "position": 0.05 },
+        { "color": "{color.violet}", "position": 0.56 },
+        { "color": "{color.title.end}", "position": 1 }
+      ],
+      "$extensions": {
+        "ai.neongate.css": {
+          "function": "linear-gradient",
+          "preamble": "120deg"
+        }
+      }
+    },
+    "canvas-base": {
+      "$value": [
+        { "color": "{color.surface.canvas-start}", "position": 0 },
+        { "color": "{color.background}", "position": 0.46 },
+        { "color": "{color.surface.canvas-end}", "position": 1 }
+      ],
+      "$extensions": {
+        "ai.neongate.css": {
+          "function": "linear-gradient",
+          "preamble": "145deg"
+        }
+      }
+    }
+  }
+}
