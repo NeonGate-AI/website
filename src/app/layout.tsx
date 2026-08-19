@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://neongate.com.br"),
-  title: "NeonGate AI — AI-native software, engineered to act.",
+  title: "Neongate AI — AI-voice software, engineered to act.",
   description:
     "Reliable AI-native products and agentic systems, engineered from first principles.",
 };

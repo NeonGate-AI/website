@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <TrackedLinkedInLink
         href="https://www.linkedin.com/company/neon-gate-ai"
-        label="NeonGate AI on LinkedIn"
+        label="Neongate AI on LinkedIn"
       />
     </PageContainer>
   );

@@ -1,6 +1,6 @@
-# NeonGate AI
+# Neongate AI
 
-The NeonGate AI website is a single Next.js application. It has no workspace
+The Neongate AI website is a single Next.js application. It has no workspace
 packages, Turborepo configuration, or package-publication pipeline.
 
 ## Requirements
