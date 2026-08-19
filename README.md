@@ -28,14 +28,15 @@ pnpm tokens:build # regenerate local CSS and JSON tokens
 
 ## Orb
 
-The controlled Orb lives at `src/orb`. The folder owns its NeonGate palette,
-palette override types, five conversational states, motion profiles, and its own
-reduced-motion hook. It imports no website modules; its only runtime library
-dependencies are React and Motion, which are installed by this application.
+The website renders the published `@neongate-ai/orbz` Web Component through its
+SSR-safe React adapter. Orbz owns the Shadow DOM styles, default NeonGate palette,
+palette overrides, five conversational states, motion profiles, and reduced-motion
+behavior.
 
-The Orb itself has no timers and changes only when its `state` prop changes. The
+Orbz itself has no timers and changes only when its `state` prop changes. The
 website-only `LivingOrb` wrapper randomly rotates through `idle`, `listening`,
-`thinking`, `speaking`, and `asleep` every 3.5 seconds.
+`thinking`, `speaking`, and `asleep` every 3.5 seconds. The former local
+`src/orb` implementation is no longer part of this repository.
 
 ## Tokens
 
