@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       <h1 className="m-0 animate-enter-title font-display text-[clamp(1.9rem,4vw,2.85rem)] leading-none font-normal tracking-[-.055em] motion-reduce:animate-none">
-        NeonGate{" "}
+        Neongate{" "}
         <span className="bg-brand-title bg-clip-text text-transparent">AI</span>
       </h1>
 
