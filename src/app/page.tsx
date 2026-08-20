@@ -37,6 +37,14 @@ export default function Home() {
         href="https://www.linkedin.com/company/neon-gate-ai"
         label="Neongate AI on LinkedIn"
       />
+      <TrackedLinkedInLink
+        href="https://www.orbz.site/"
+        label="Neongate AI Voice web-component"
+      />
+      <TrackedLinkedInLink
+        href="https://www.amarelo.life/"
+        label="Amarelo"
+      />
     </PageContainer>
   );
 }
